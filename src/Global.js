@@ -6,7 +6,6 @@ export const Global = createGlobalStyle`
   --ligth-gray-color: hsl(212, 45%, 89%);
   --white-color: hsl(0, 0%, 100%);
   --dark-blue-color: hsl(218, 44%, 22%);
-  --background-color: #F5F5F5;
   }
 
 *{
@@ -27,11 +26,9 @@ body{
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background-color: var(--background-color);
+    background-color: var(--ligth-gray-color);
     margin: 0;
     padding: 0;
 }
-
-  
 
 `;

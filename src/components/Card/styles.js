@@ -9,13 +9,13 @@ export const Card = styled.div`
   background-color: var(--white-color);
   box-shadow: 0px 5px 27px -11px rgba(171, 178, 187, 0.90);
   padding: 20px 0;
-  gap: 30px;
+  gap: 35px;
 
   .text {
     display: flex;
     flex-direction: column;
     padding: 0 24px;
-    gap: 30px;
+    gap: 40px;
 
     h3,
     p {
